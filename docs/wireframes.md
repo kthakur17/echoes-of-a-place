@@ -1,0 +1,142 @@
+# Wireframes (Low-Fidelity)
+
+Desktop-first sketches; every layout collapses to a single column under `sm` (640px). `▓` = skeleton shimmer while Gemini writes.
+
+## Landing `/`
+
+```
+┌────────────────────────────────────────────────────────────┐
+│ 🏛️ Echoes of a Place   Discover Stories Portal … [Sign out]│
+├────────────────────────────────────────────────────────────┤
+│                                                            │
+│            A DIFFERENT KIND OF TRAVEL PLATFORM             │
+│              Tourists visit places.                        │
+│      We help them have conversations with history.        │
+│                                                            │
+│        [ Begin your journey ]  [ Hear a story first ]      │
+│                                                            │
+│  ┌─────────┐ ┌─────────┐ ┌─────────┐                       │
+│  │🧭 Discov│ │📖 Story │ │⏳ Portal│   … 7 feature cards   │
+│  └─────────┘ └─────────┘ └─────────┘                       │
+└────────────────────────────────────────────────────────────┘
+```
+
+## Discover `/discover`
+
+```
+┌ Feature 01 — Destination Discovery ────────────────────────┐
+│ Where does your feeling want to go?                        │
+├────────────────────────────────────────────────────────────┤
+│ What draws you?  (History)(Spirituality)(Food)(Crafts)…    │
+│ Budget ▾      Travel style ▾      Days: ●──────── 7        │
+│ What are you hoping to feel?                               │
+│ [ "hidden gems instead of crowds"                        ] │
+│                 [ Find places that answer ]                │
+├────────────────────────────────────────────────────────────┤
+│ ┌ Luang Prabang ──────────────── "tagline chip" ─────────┐ │
+│ │ Region · Best season · $40-60/day                      │ │
+│ │ Why it matters: …reasoning referencing YOUR words…     │ │
+│ │ (peace)(slow mornings)  ← matched desires              │ │
+│ │ Essential | Hidden gems | With local people (3 each)   │ │
+│ │ [Hear its story →][Open time portal][Meet its people]  │ │
+│ └────────────────────────────────────────────────────────┘ │
+│  × 3 cards                                                 │
+└────────────────────────────────────────────────────────────┘
+```
+
+## Stories `/stories` (streaming)
+
+```
+┌ Destination [ Varanasi          ]  Focus ▾  [Tell me the story] │
+├──────────────────────────────────────────────────────────────┤
+│ ┌──────────────── centered reading column ─────────────────┐ │
+│ │ Imagine standing on the ghats of Varanasi at sunrise…    │ │
+│ │                                                          │ │
+│ │ ## The River Remembers                                   │ │
+│ │ text streaming in live … ▌   ← blinking cursor           │ │
+│ └──────────────────────────────────────────────────────────┘ │
+└──────────────────────────────────────────────────────────────┘
+```
+
+## Time Portal `/time-portal`
+
+```
+┌ Destination [ Kyoto ]                    [ Open the portal ] │
+├──────────────────────────────────────────────────────────────┤
+│ [🌆 Present] [📻 50 Years Ago] [🎩 100 Years Ago] [🏺 Ancient]│  ← tabs
+├──────────────────────────────────────────────────────────────┤
+│ Kyoto — 100 Years Ago            C. 1920S                    │
+│ ▎You step off the tram into a street of wooden machiya…      │  ← scene, styled quote
+│ DAILY LIFE …    CULTURAL PRACTICES • • •                     │
+│ MAJOR EVENTS   1923 ─ …   1928 ─ …                           │
+│ LAND & ENVIRONMENT …                                         │
+│ ┌ WHAT SURVIVES TODAY (green panel) ────────────────────┐    │
+└──────────────────────────────────────────────────────────────┘
+```
+
+## Companions `/companions`
+
+```
+┌ Which place shall we talk about? [ Hanoi ]                   │
+├──────────────────────────────────────────────────────────────┤
+│ (🧵 Meera)(📜 Adeyemi)(🔥 Amara)(🎻 Rafael)(🍜 Auntie Lan)   │  ← persona cards
+├──────────────────────────────────────────────────────────────┤
+│ 🍜 Auntie Lan · Street Food Vendor · Hanoi                   │
+│ ┌──────────────────────────────────────────────────────────┐ │
+│ │ ◄ You look hungry! Thirty years I've run this stall…     │ │
+│ │                          What should I eat first? ►      │ │
+│ │ ◄ Ha! You start with phở, of course — but not just any…  │ │
+│ └──────────────────────────────────────────────────────────┘ │
+│ [ Ask Auntie Lan anything about Hanoi…        ] [ Send ]     │
+└──────────────────────────────────────────────────────────────┘
+```
+
+## Heritage `/heritage`
+
+```
+┌ Destination [ Fez ]              [ Explore hidden heritage ] │
+├──────────────────────────────────────────────────────────────┤
+│ ┌ 🧶 Traditional Zellige Cutting ──── [ENDANGERED] ────────┐ │
+│ │ story…                                                   │ │
+│ │ ┌ WHY IT MATTERS ┐  ┌ WHY IT'S DISAPPEARING ┐            │ │
+│ │ ┌ HOW YOU CAN HELP (green panel, bullet actions) ──────┐ │ │
+│ │ Where to experience it: …                               │ │
+│ └──────────────────────────────────────────────────────────┘ │
+└──────────────────────────────────────────────────────────────┘
+```
+
+## Events `/events`
+
+```
+┌ Destination [ Oaxaca ]  From [2026-10-25] To [2026-11-05]    │
+│                                     [ Find what's alive ]    │
+├──────────────────────────────────────────────────────────────┤
+│ ┌ 🎆 Día de los Muertos ── [late Oct–Nov 2; fixed dates] ──┐ │
+│ │ description… significance…                               │ │
+│ │ ┌ WHAT LOCALS DO ┐        ┌ VISITOR ETIQUETTE (green) ┐  │ │
+│ └──────────────────────────────────────────────────────────┘ │
+└──────────────────────────────────────────────────────────────┘
+```
+
+## Storybook `/storybook`
+
+```
+┌ Your journey so far ─────────────────────────────────────────┐
+│ 🧭 Searched for "hidden gems…" and discovered …   1 July     │
+│ 📖 Listened to the cultural story of Varanasi.    1 July     │
+│ ⏳ Stepped into Kyoto in "100 Years Ago".         2 July     │
+│ ─────────────────────────────────────────────────────────    │
+│ Traveler's name [ Kunal      ]     [ Write my storybook ]    │
+├──────────────────────────────────────────────────────────────┤
+│ ┌────────────── book layout, centered ────────────────────┐  │
+│ │                        📜                                │  │
+│ │        Kunal's Journey Through Living History            │  │
+│ │            for the traveler who listens…                 │  │
+│ │  CHAPTER 1                                               │  │
+│ │  Where the River Keeps the Score                         │  │
+│ │  You began in Varanasi, drawn by…                        │  │
+│ │  …  EPILOGUE                                             │  │
+│ └──────────────────────────────────────────────────────────┘  │
+│ Earlier storybooks: [card] [card]                             │
+└──────────────────────────────────────────────────────────────┘
+```
