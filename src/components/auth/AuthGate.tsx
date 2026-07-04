@@ -23,7 +23,8 @@ export function AuthGate({ children }: { children: React.ReactNode }) {
     setError(null);
     try {
       await (method === "google" ? signInWithGoogle() : signInAsGuest());
-    } catch {
+    } catch (err) {
+      console.error("[auth] sign-in failed:", err);
       setError("Sign-in didn't complete. Please try again.");
     } finally {
       setBusy(null);

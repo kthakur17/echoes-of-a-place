@@ -25,6 +25,22 @@ const nextConfig: NextConfig = {
   reactStrictMode: true,
   poweredByHeader: false,
   outputFileTracingRoot: path.join(__dirname),
+  // Serve the Firebase auth handler from OUR domain so the Google sign-in
+  // popup is same-origin — immune to Chrome's third-party-cookie blocking.
+  // Requires NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN to be set to the site's own
+  // domain (e.g. echoes-of-a-place.vercel.app) in production.
+  async rewrites() {
+    return [
+      {
+        source: "/__/auth/:path*",
+        destination: "https://echoes-of-a-place.firebaseapp.com/__/auth/:path*",
+      },
+      {
+        source: "/__/firebase/:path*",
+        destination: "https://echoes-of-a-place.firebaseapp.com/__/firebase/:path*",
+      },
+    ];
+  },
   async headers() {
     return [
       {
